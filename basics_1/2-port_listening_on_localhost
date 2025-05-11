@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script listens on port 98 on localhost and prints any received text
+
+echo "Starting my script."
+nc -l 98
